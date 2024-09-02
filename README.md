@@ -31,11 +31,11 @@ $$
 
 This system of equations is solved using the values of five adjacent points to calculate the coefficients:
 
-- \( a \cdot 0^2 + b \cdot 0^2 + c \cdot 0 \cdot 0 + d \cdot 0 + e \cdot 0 + f = R_{cormx}[ij] \tag{3} \)
-- \( a \cdot 1^2 + b \cdot 0^2 + c \cdot 1 \cdot 0 + d \cdot 1 + e \cdot 0 + f = R_{cormx}[ij+1] \tag{4} \)
-- \( a \cdot (-1)^2 + b \cdot 0^2 + c \cdot (-1) \cdot 0 + d \cdot (-1) + e \cdot 0 + f = R_{cormx}[ij-1] \tag{5} \)
-- \( a \cdot 0^2 + b \cdot 1^2 + c \cdot 0 \cdot 1 + d \cdot 0 + e \cdot 1 + f = R_{cormx}[i+1j] \tag{6} \)
-- \( a \cdot 0^2 + b \cdot (-1)^2 + c \cdot 0 \cdot (-1) + d \cdot 0 + e \cdot (-1) + f = R_{cormx}[i-1j] \tag{7} \)
+- $\( a \cdot 0^2 + b \cdot 0^2 + c \cdot 0 \cdot 0 + d \cdot 0 + e \cdot 0 + f = R_{cormx}[ij] \tag{3} \)$
+- $\( a \cdot 1^2 + b \cdot 0^2 + c \cdot 1 \cdot 0 + d \cdot 1 + e \cdot 0 + f = R_{cormx}[ij+1] \tag{4} \)$
+- $\( a \cdot (-1)^2 + b \cdot 0^2 + c \cdot (-1) \cdot 0 + d \cdot (-1) + e \cdot 0 + f = R_{cormx}[ij-1] \tag{5} \)$
+- $\( a \cdot 0^2 + b \cdot 1^2 + c \cdot 0 \cdot 1 + d \cdot 0 + e \cdot 1 + f = R_{cormx}[i+1j] \tag{6} \)$
+- $\( a \cdot 0^2 + b \cdot (-1)^2 + c \cdot 0 \cdot (-1) + d \cdot 0 + e \cdot (-1) + f = R_{cormx}[i-1j] \tag{7} \)$
 
 By deriving the quadratic equation, the location of the maximum correlation can be calculated with an accuracy of 0.1 pixels.
 
